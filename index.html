@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <title>Adivina</title>
+  <link rel="stylesheet" media="not screen and (device-width: 1200px) and (device-height: 900px)"
+        href="lib/sugar-web/graphics/css/sugar-96dpi.css">
+  <link rel="stylesheet" media="screen and (device-width: 1200px) and (device-height: 900px)"
+        href="lib/sugar-web/graphics/css/sugar-200dpi.css">
+  <link rel="stylesheet" href="css/activity.css">
+  <script data-main="js/loader" src="lib/require.js"></script>
+  <script  type="text/javascript"src="js/jquery.js"></script>
+  <script type="text/javascript" src="js/jquerys.js"></script>
+  <script type="text/javascript" src="js/palabras.js"></script>
+
+</head>
+
+<body>
+  <div id="main-toolbar" class="toolbar">
+    <button class="toolbutton" id="activity-button" title="Adivina Activity"></button>
+    <button class="toolbutton pull-right" id="stop-button" title="Stop"></button>
+  </div>
+
+  <div id="canvas">
+
+
+    <h1 class="comun">Adivina!!!</h1>
+
+
+    <!--**************************************-->
+    <div id="palabra" class="comun">
+
+    </div>
+    <br>
+    <div class="comun">
+      <input type="text" id="intento">
+      <br>
+      <button id="buttonAgregar">Agregar</button>
+      <p id="textError" class="error hidden"></p>
+    </div>
+    <br>
+    <div class="comun">
+      <p>Letras usadas</p>
+      <div id="utilizadas" class="comun">
+      
+      </div>
+    </div>
+
+
+  </div>
+</body>
+
+</html>

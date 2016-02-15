@@ -1,0 +1,29 @@
+#main-toolbar #activity-button {
+  background-image: url(../activity/activity-icon.svg);
+}
+
+.comun{
+	text-align: center;
+}
+#parrafo{
+	font-weight: bold;
+	color: red;
+}
+.error{
+	color: red;
+	font-weight: bold;
+}
+.hidden{
+	display: none;
+}
+.letras{
+	display: inline;
+}
+.letrasEncontradas{
+	display: inline;
+	font-size: 250%;
+}
+.again{
+	color: red;
+	font-weight: bold;
+}
