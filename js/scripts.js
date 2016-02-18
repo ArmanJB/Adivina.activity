@@ -51,10 +51,11 @@ $(function(){
     contador = 0;
     contadorGanar = 0;
 
+    $("p").remove(".letrasO");
     $("p").remove(".letras");
 
     for (var i = 0; i<palabra.length; i++) {
-      var juego = $("<p></p>").text(" ____ ").attr("id", "letra"+i).addClass("letras");
+      var juego = $("<p></p>").text(" ____ ").attr("id", "letra"+i).addClass("letrasO");
       $("#palabra").append(juego);
     };
     $("#pista").html(serie.pista);
@@ -212,7 +213,7 @@ $(function(){
     };
   }
   function again(){
-    $("#textError").css("font-size", "250%");
+    $("#textError").css("font-size", "150%");
     $("#textError").fadeIn(1000);
     $("#sig").html(serie.significado);
     $("#form").addClass("hidden");

@@ -103,10 +103,10 @@
             </div>
           </td>
           <td>
-            <div class="columnaJuego">
-              <p id="textError" class="error hidden comun"></p>
+            <div id="info_ayuda" class="columnaJuego">
+              <p id="textError" class="error hidden comun titulo_info"></p>
               <div class="info comun">
-                <p>Letras usadas</p>
+                <p class="titulo_info">Letras usadas</p>
                 <div id="utilizadas" class="comun"></div>
               </div>
               <div id="pistaGroup" class="comun">
@@ -122,18 +122,17 @@
     </div>
     <div id="versus" class="hidden comun">
       <h1 class="comun">Juega con un amigo</h1>
+      <br>
+      <p id="info_versus" class="info"><i>Ingresa una <b>Palabra</b>, su significado y una pista. Pulsa <b>Jugar</b> y veremos si tus amigos pueden adivinarla!!</i></p>
       <div id="form2" class="comun">
         <p>Palabra:</p>
         <input type="text" id="palabra_versus">
         <br>
-        <br>
         <p>Pista:</p>
         <input type="text" id="pista_versus">
         <br>
-        <br>
         <p>Significado</p>
         <input type="text" id="significado_versus">
-        <br>
         <br>
         <br>
         <button id="jugar_versus" class="bg_nivel">Jugar</button>
